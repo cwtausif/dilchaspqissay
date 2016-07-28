@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appcolor"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context="com.glowingsoft.dilchaspqissay.AboutActivity">
+    <TextView
+        android:text="About Us"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!-- Member one -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/firstPerson"
+        android:layout_width="@dimen/unitWidth"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white_with_gray_stroke">
+        <ImageView
+            android:id="@+id/profilePicOne"
+            android:src="@drawable/tausif"
+            android:layout_width="135px"
+            android:layout_height="135px"
+            android:scaleType="fitXY"
+            android:padding="2dp"
+            android:layout_marginLeft="8dp"
+            android:layout_centerVertical="true"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_toEndOf="@+id/profilePicOne"
+            android:layout_toRightOf="@+id/profilePicOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/profileNameOne"
+                android:text="Tausif Ul Rahman"
+                android:textSize="@dimen/personName"
+                android:textColor="@color/appcolordark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               />
+            <TextView
+                android:text="CEO Dilchasp Qissay, Android developer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <!-- Email -->
+                <ImageView
+                    android:id="@+id/tausifEmail"
+                    android:src="@drawable/ic_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+    <!-- Member two -->
+    <RelativeLayout
+        android:id="@+id/thirdPerson"
+        android:layout_width="@dimen/unitWidth"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white_with_gray_stroke"
+        android:layout_gravity="right"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:gravity="right"
+            android:layout_toLeftOf="@+id/profilePicThird">
+            <TextView
+                android:id="@+id/profileNameThird"
+                android:text="Fasih Ul Hassan"
+                android:textSize="@dimen/personName"
+                android:textColor="@color/appcolordark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="Marketing Executive, Social Analyst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <!-- Email -->
+                <ImageView
+                    android:src="@drawable/ic_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/profilePicThird"
+            android:src="@drawable/fasih"
+            android:layout_width="135px"
+            android:layout_height="135px"
+            android:scaleType="fitXY"
+            android:padding="2dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <!-- Member three -->
+    <RelativeLayout
+        android:id="@+id/secondPerson"
+        android:layout_width="@dimen/unitWidth"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white_with_gray_stroke">
+        <ImageView
+            android:id="@+id/profilePicTwo"
+            android:src="@drawable/arslan"
+            android:layout_width="135px"
+            android:layout_height="135px"
+            android:scaleType="fitXY"
+            android:padding="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_toEndOf="@+id/profilePicTwo"
+            android:layout_toRightOf="@+id/profilePicTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/profileNameTwo"
+                android:text="Arslan Aslam"
+                android:textSize="@dimen/personName"
+                android:textColor="@color/appcolordark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="WEB , Database Developer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <!-- Email -->
+                <ImageView
+                    android:src="@drawable/ic_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+    <!-- Member four -->
+    <RelativeLayout
+        android:id="@+id/fourthPerson"
+        android:layout_width="@dimen/unitWidth"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/bg_white_with_gray_stroke">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:layout_toLeftOf="@+id/profilePicFour">
+            <TextView
+                android:id="@+id/profileNameFour"
+                android:text="Tehreem Abbas"
+                android:textSize="@dimen/personName"
+                android:textColor="@color/appcolordark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="Android, iOS Developer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <!-- Email -->
+                <ImageView
+                    android:src="@drawable/ic_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/profilePicFour"
+            android:src="@drawable/tehreem"
+            android:layout_width="135px"
+            android:layout_height="135px"
+            android:scaleType="fitXY"
+            android:padding="2dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+
+            />
+    </RelativeLayout>
+    <!-- Member five -->
+    <RelativeLayout
+        android:id="@+id/fivePerson"
+        android:layout_width="@dimen/unitWidth"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/bg_white_with_gray_stroke">
+        <ImageView
+            android:id="@+id/profilePicFive"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ali"
+            android:layout_width="135px"
+            android:layout_height="135px"
+            android:scaleType="fitXY"
+            android:padding="2dp"
+            android:layout_centerVertical="true"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_toEndOf="@+id/profilePicFive"
+            android:layout_toRightOf="@+id/profilePicFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/profileNameFive"
+                android:text="Ali Imran"
+                android:textSize="@dimen/personName"
+                android:textColor="@color/appcolordark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="Graphic Designer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <!-- Email -->
+                <ImageView
+                    android:src="@drawable/ic_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+    <TextView
+        android:text="Project of: Glowingsoft Technologies."
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

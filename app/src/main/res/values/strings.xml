@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dilchasp Qissay</string>
+    <string name="titletext">ﺍﯾﺴﯽ ﺑﮭﯽ ﮨﻮﺗﯽ ﮨﯿﮟ ﺷﺎﺩﯾﺎﮞ</string>
+    <string name="sharebody">Here is the share content body</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="banner_detail_footer">ca-app-pub-4665124310418086/7363923055</string>
+    <string name="interstitial_full_screen">ca-app-pub-4665124310418086/4270855857</string>
+    <string name="hamarybazurg">ہمارے بزرگ</string>
+    <string name="sabaqamooz">سبق آموز</string>
+    <string name="islamiwaqyat">اسلامی واقعات</string>
+    <string name="hamaramuashra">ہمارا معاشرہ</string>
+    <string name="aapbeeti">آپ بیتی</string>
+    <string name="safarnamay">سفرنامه</string>
+</resources>

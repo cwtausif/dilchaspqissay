@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="lineColor">#d28940</color>
+
+    <color name="textColor">#f6470a</color>
+    <color name="white">#FFF</color>
+    <color name="appcolor">#8f7f5f</color>
+    <color name="app_primary_pressed">#FFF</color>
+    <color name="app_ripple">#CCFFCC</color>
+    <color name="appcolordark">#865e3b</color>
+    <color name="black">#000000</color>
+</resources>

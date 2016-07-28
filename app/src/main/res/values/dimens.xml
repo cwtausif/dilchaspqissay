@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="titleslistpadding">10dp</dimen>
+    <dimen name="titlleimagewidth">64dp</dimen>
+    <dimen name="titleimageheight">64dp</dimen>
+    <dimen name="titleSize">23dp</dimen>
+    <dimen name="titlePadding">5dp</dimen>
+    <dimen name="menubuttonwidth">120dp</dimen>
+    <dimen name="menubuttonheight">120dp</dimen>
+    <dimen name="menubuttonspadding">40dp</dimen>
+    <dimen name="menumaringtopbutton">20dp</dimen>
+    <dimen name="personName">20dp</dimen>
+    <dimen name="unitWidth">345dp</dimen>
+</resources>

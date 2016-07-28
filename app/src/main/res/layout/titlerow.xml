@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_white_with_gray_stroke"
+    android:gravity="center_vertical"
+    android:padding="@dimen/titleslistpadding"
+    >
+    <ImageView
+        android:id="@+id/titlesImage"
+        android:src="@drawable/small"
+        android:layout_width="@dimen/titlleimagewidth"
+        android:layout_height="@dimen/titleimageheight"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/story_image"
+        />
+    <TextView
+        android:id="@+id/titlesTitle"
+        android:padding="@dimen/titlePadding"
+        android:text="@string/titletext"
+        android:textSize="@dimen/titleSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:gravity="center_vertical"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/titlesImage"
+        android:layout_toStartOf="@+id/titlesImage"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="5dp"/>
+    <TextView
+        android:id="@+id/counterTv"
+        android:background="@drawable/counter_circle"
+        android:text="00"
+        android:textSize="14dp"
+        android:padding="0dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+
+</RelativeLayout>
